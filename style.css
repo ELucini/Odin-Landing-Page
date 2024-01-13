@@ -1,6 +1,18 @@
 header {
     display:flex;
     flex-direction: column;
+    padding: 0px;
+}
+
+.header {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #0b1a20;
+    padding-bottom: 100px;
+}
+
+body {
+    margin: 0px;
 }
 
 .logo {
@@ -16,9 +28,6 @@ header {
 .header-top{
     display:flex;
     flex: 0;
-    padding-left: 200px;
-    padding-right:200px;
-    background-color:#0b1a20;
     height: 100px;
     color: white;
     justify-content: space-between;
@@ -28,4 +37,26 @@ header {
 .header-top-links{
     display: flex;
     gap: 30px;
+}
+
+.header-bottom{
+    display: flex;
+    color: white;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    color:#0b1a20;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+
 }
