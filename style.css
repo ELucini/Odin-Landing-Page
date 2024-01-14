@@ -9,6 +9,7 @@ header {
     padding-right: 200px;
     background-color: #0b1a20;
     padding-bottom: 100px;
+    padding-top:20px;
 }
 
 body {
@@ -16,9 +17,10 @@ body {
 }
 
 .logo {
+    display: flex;
     height: 200px;
+    border-radius: 0px;
 }
-
 
 .image {
     width: 600px;
@@ -27,11 +29,11 @@ body {
 
 .header-top{
     display:flex;
-    flex: 0;
     height: 100px;
     color: white;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 .header-top-links{
@@ -61,8 +63,35 @@ button {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
+    justify-content: center;
 
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex: 0;
+    text-align: center;
+}
+
+.img-container {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.col-1 {
+    flex-shrink: 0;
+    width: 300px;
+    justify-content: center;
+}
+
+.header-1 {
+    text-align: center;
+    height:100px;
 }
